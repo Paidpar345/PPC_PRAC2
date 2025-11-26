@@ -1,0 +1,28 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="MensajeControl">
+        <xs:complexType>
+            <xs:attribute name="codificacion" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="XML"/>
+                        <xs:enumeration value="JSON"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="comando" use="required">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="CAMBIAR_CODIFICACION"/>
+                        <xs:enumeration value="CAMBIAR_FRECUENCIA"/>
+                        <xs:enumeration value="CAMBIAR_UNIDADES"/>
+                        <xs:enumeration value="ACTIVAR"/>
+                        <xs:enumeration value="DESACTIVAR"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="valor" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

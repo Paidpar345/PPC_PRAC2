@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MensajeDistribucion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codificacion="XML" idServidor="SERV-3" xsi:noNamespaceSchemaLocation="recursos/distribucion.xsd">
+    <Variable>
+        <nombre>temperatura</nombre>
+        <unidad>°C</unidad>
+        <valor>20.48</valor>
+    </Variable>
+    <Variable>
+        <nombre>humedad relativa</nombre>
+        <unidad>%</unidad>
+        <valor>63.52</valor>
+    </Variable>
+    <Variable>
+        <nombre>partículas en suspensión (PM10)</nombre>
+        <unidad>µg/m³</unidad>
+        <valor>20.07</valor>
+    </Variable>
+</MensajeDistribucion>

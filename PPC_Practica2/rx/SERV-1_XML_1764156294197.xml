@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MensajeDistribucion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codificacion="XML" idServidor="SERV-1" xsi:noNamespaceSchemaLocation="recursos/distribucion.xsd">
+    <Variable>
+        <nombre>temperatura</nombre>
+        <unidad>°C</unidad>
+        <valor>24.42</valor>
+    </Variable>
+    <Variable>
+        <nombre>dióxido de azufre (SO2)</nombre>
+        <unidad>µg/m³</unidad>
+        <valor>28.12</valor>
+    </Variable>
+    <Variable>
+        <nombre>ozono (O3)</nombre>
+        <unidad>µg/m³</unidad>
+        <valor>32.6</valor>
+    </Variable>
+</MensajeDistribucion>

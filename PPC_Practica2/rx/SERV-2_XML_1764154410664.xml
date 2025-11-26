@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MensajeDistribucion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" codificacion="XML" idServidor="SERV-2" xsi:noNamespaceSchemaLocation="recursos/distribucion.xsd">
+    <Variable>
+        <nombre>humedad relativa</nombre>
+        <unidad>%</unidad>
+        <valor>69.67</valor>
+    </Variable>
+    <Variable>
+        <nombre>dióxido de nitrógeno (NO2)</nombre>
+        <unidad>µg/m³</unidad>
+        <valor>43.42</valor>
+    </Variable>
+    <Variable>
+        <nombre>partículas en suspensión (PM10)</nombre>
+        <unidad>µg/m³</unidad>
+        <valor>37.77</valor>
+    </Variable>
+    <Variable>
+        <nombre>ozono (O3)</nombre>
+        <unidad>µg/m³</unidad>
+        <valor>27.06</valor>
+    </Variable>
+</MensajeDistribucion>
